@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Home Page
-description: "Trace Mayer's speaking engagements and biography."
+title: Trace Mayer
+description: "A core purpose of Trace Mayer is to be a champion of monetary sovereignty through non-violent cryptographic means"
 ---
 
 <html>

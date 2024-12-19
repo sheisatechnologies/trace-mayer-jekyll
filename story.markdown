@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Story 
-description: "Trace Mayer's speaking engagements and biography."
+title: My Story 
+description: "Everyone knows the golden rule: He who has the gold makes the rules."
 ---
 
 

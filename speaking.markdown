@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Speaking
-description: "Trace Mayer's speaking engagements and biography."
+description: "Due to being busy with other pursuits Trace Mayer is no longer taking speaking requests."
 ---
 
 <html>

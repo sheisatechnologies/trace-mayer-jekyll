@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contact
-description: "Trace Mayer's speaking engagements and biography."
+description: "Contact Trace Mayer"
 ---
 
 <body>
