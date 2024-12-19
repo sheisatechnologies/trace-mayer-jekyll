@@ -12,11 +12,21 @@
         </button>
         <div class="px-3 collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto px-md-5 pt-4 pt-md-0">
-                <li class="nav-item"><a class="nav-link active" href="{{ '/' | relative_url }}">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ '/story.html' | relative_url }}">My Story</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ '/investments.html' | relative_url }}">Experience</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ '/speaking.html' | relative_url }}">Blog</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ '/contact.html' | relative_url }}">Contact</a></li>
+                <li class="nav-item">
+                    <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% if page.url == '/story.html' %}active{% endif %}" href="{{ '/story.html' | relative_url }}">My Story</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% if page.url == '/investments.html' %}active{% endif %}" href="{{ '/investments.html' | relative_url }}">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% if page.url == '/speaking.html' %}active{% endif %}" href="{{ '/speaking.html' | relative_url }}">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% if page.url == '/contact.html' %}active{% endif %}" href="{{ '/contact.html' | relative_url }}">Contact</a>
+                </li>
             </ul>
         </div>
     </div>
